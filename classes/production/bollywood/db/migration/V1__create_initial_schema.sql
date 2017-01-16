@@ -7,5 +7,5 @@ CREATE TABLE `movies` (
   `released` DATE         NULL,
   `length`   INT          NULL,
   `created`  TIMESTAMP    NULL DEFAULT NOW(),
-  `modified`  TIMESTAMP   NULL DEFAULT NOW(),
+  `modified`  TIMESTAMP    NULL DEFAULT NOW(),
   PRIMARY KEY (`id`));
